@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <p>Time Management System</p>
+        </div>
+        <ul>
+            <li><a href="" class="menu-items active">Dashboard</a></li>
+            <li><a href="" class="menu-items">Timesheet</a></li>
+            <li><a href="" class="menu-items">Sprints</a></li>
+            <li><a href="" class="menu-items">Tasks</a></li>
+            <li><a href="" class="menu-items">Issues</a></li>
+            <li><a href="" class="menu-items">Milestones</a></li>
+            <li><a href="" class="menu-items">Finance</a></li>
+            <li><a href="" class="menu-items">Documents</a></li>
+        </ul>
+    </nav>
+    <div class="data">
+        <div class="user">
+            <i class="fas fa-user-circle"></i>
+            <a href="#">U5123</a>
+        </div>
+        <div class="start">
+            <label>Start date: </label>
+            <input type="date" value="23-02-2020">
+        </div>
+        <div class="end">
+            <label>End date: </label>
+            <input type="date" value="28-02-2020">
+            <input type="submit" value="Submit" class="submit">
+            <i class="fas fa-plus" title="add"></i>
+        </div>
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="t-head"><pre>&#9;&#9;&#9;</pre></th>
+                    <th class="t-head">Start Time</th>
+                    <th class="t-head">End Time</th>
+                    <th class="t-head">Task type</th>
+                    <th class="t-head">Team ID</th>
+                    <th class="t-head">Project ID</th>
+                    <th class="t-head">Ticket No.</th>
+                    <th class="t-head"><pre>&#9;&#9;&#9;</pre></th>
+                </tr>
+                <tr>
+                    <td>23-02-2020</td>
+                    <td><input type="time" ></td>
+                    <td><input type="time" ></td>
+                    <td>
+                        <select name="task-type">
+                            <option selected>DEV</option>
+                            <option>QA</option>
+                            <option>RESEARCH</option>
+                            <option>DEVOPS</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="ids" placeholder="team-id"></td>
+                    <td><input type="text" class="ids" placeholder="project-id"></td>
+                    <td>DEV-27135</td>
+                    <td><pre>&#9;&#9;&#9;</pre></td>
+                </tr>
+
+                <tr>
+                    <td>24-02-2020</td>
+                    <td><input type="time" ></td>
+                    <td><input type="time" ></td>
+                    <td>
+                        <select name="task-type">
+                            <option>DEV</option>
+                            <option selected>QA</option>
+                            <option>RESEARCH</option>
+                            <option>DEVOPS</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="ids" placeholder="team-id"></td>
+                    <td><input type="text" class="ids" placeholder="project-id"></td>
+                    <td>QA-173</td>
+                    <td><pre>&#9;&#9;&#9;</pre></td>
+                </tr>
+
+                <tr>
+                    <td>25-02-2020</td>
+                    <td><input type="time" ></td>
+                    <td><input type="time" ></td>
+                    <td>
+                        <select name="task-type">
+                            <option>DEV</option>
+                            <option>QA</option>
+                            <option>RESEARCH</option>
+                            <option>DEVOPS</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="ids" placeholder="team-id"></td>
+                    <td><input type="text" class="ids" placeholder="project-id"></td>
+                    <td>RES-1952</td>
+                    <td><pre>&#9;&#9;&#9;</pre></td>
+                </tr>
+
+                <tr>
+                    <td>26-02-2020</td>
+                    <td><input type="time" ></td>
+                    <td><input type="time" ></td>
+                    <td>
+                        <select name="task-type">
+                            <option>DEV</option>
+                            <option>QA</option>
+                            <option>RESEARCH</option>
+                            <option selected>DEVOPS</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="ids" placeholder="team-id"></td>
+                    <td><input type="text" class="ids" placeholder="project-id"></td>
+                    <td>DEVOPS-175</td>
+                    <td><pre>&#9;&#9;&#9;</pre></td>
+                </tr>
+
+                <tr>
+                    <td>27-02-2020</td>
+                    <td><input type="time" ></td>
+                    <td><input type="time" ></td>
+                    <td>
+                        <select name="task-type">
+                            <option>DEV</option>
+                            <option>QA</option>
+                            <option>RESEARCH</option>
+                            <option>DEVOPS</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="ids" placeholder="team-id"></td>
+                    <td><input type="text" class="ids" placeholder="project-id"></td>
+                    <td>&#9;&#9;&#9;</td>
+                    <td><pre>&#9;&#9;&#9;</pre></td>
+                </tr>
+
+                <tr>
+                    <td>28-02-2020</td>
+                    <td><input type="time" ></td>
+                    <td><input type="time" ></td>
+                    <td>
+                        <select name="task-type">
+                            <option>DEV</option>
+                            <option>QA</option>
+                            <option selected>RESEARCH</option>
+                            <option>DEVOPS</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="ids" placeholder="team-id"></td>
+                    <td><input type="text" class="ids" placeholder="project-id"></td>
+                    <td>&#9;&#9;&#9;</td>
+                    <td><pre>&#9;&#9;&#9;</pre></td>
+                </tr>
+
+            </thead>
+        </table>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
