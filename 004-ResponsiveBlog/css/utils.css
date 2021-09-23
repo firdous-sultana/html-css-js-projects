@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+:root {
+  --main-bg-color: rgb(28, 25, 77);
+  --font1: 'Dancing Script', cursive;
+  --font2: "Roboto", sans-serif;
+  --font3: 'Poppins', sans-serif;
+}
+
+.max-width1 {
+  max-width: 80vw;
+}
+
+.max-width2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.btn {
+}
+
+.form-input {
+    padding: 4px 3px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0px 12px;
+    font-family: var(--font3);
+    /* width: 50%; */
+  }
+

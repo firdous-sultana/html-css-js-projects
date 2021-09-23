@@ -1,0 +1,30 @@
+.contact-content {
+  height: 100vh;
+  margin-top: 32px;
+  padding: 10px;
+  position: relative;
+  font-family: var(--font3);
+  overflow: hidden;
+}
+
+.contact-content::after {
+  content: "";
+  background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.12;
+  border-radius: 20px;
+  z-index: -1;
+}
+/* .form-box input textarea{ */
+
+.form-box{
+    width: 45vw;
+    padding: 10px 6px;
+    margin: 7px 0px;
+    font-family: var(--font3);
+    border-radius: 6px;
+    border: 2px solid rgb(17, 18, 68);
+}

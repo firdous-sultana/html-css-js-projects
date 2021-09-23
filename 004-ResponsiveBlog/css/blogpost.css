@@ -1,0 +1,17 @@
+.post-img{
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+/* .blog-post-content{ */
+    /* background-color: burlywood; */
+/* } */
+
+.blog-post-content h1{
+    text-align: center;
+    font-family: var(--font1);
+}
+.font1{
+    font-size: 20px;
+}
